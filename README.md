@@ -1,8 +1,18 @@
 # Databricks Scala Guide
-
+<!--
 With over 500 contributors, Spark is to the best of our knowledge the largest open-source project in Big Data and the most active project written in Scala. This guide draws from our experience coaching and working with engineers contributing to Spark as well as our [Databricks](http://databricks.com/) engineering team.
+-->
 
+Spark には 500人以上のコントリビュータがいます。私達がしっている限り、Spark は Big Data でもっとも大きなオープンソースプロジェクトであると同時に、Scala で書かれているもっとも活発なプロジェクトです。
+Spark へ貢献しているエンジニアや [Databricks](http://databricks.com/) のエンジニアチームを指導し、共に働いた経験を元にこのガイドは書かれてます。
+
+<!--
 Code is __written once__ by its author, but __read and modified multiple times__ by lots of other engineers. As most bugs actually come from future modification of the code, we need to optimize our codebase for long-term, global readability and maintainability. The best way to achieve this is to write simple code.
+-->
+
+コードは著者により __1度書かれ__ たあと 、多くのエンジニアにより __何度も読み書き__ されます。
+ほとんどのバグは実際のところ将来のコード変更により引き起こされるので、コードベースを長期にわたり読みやすく、メンテナンス可能であるように最適化する必要があります。
+これを実現するのに最適な方法はシンプルなコードを書くことです。
 
 Scala is an incredibly powerful language that is capable of many paradigms. We have found that the following guidelines work well for us on projects with high velocity. Depending on the needs of your team, your mileage might vary.
 
